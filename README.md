@@ -12,6 +12,11 @@ tar xvfz ngrok-v3-stable-linux-arm.tgz
 ./ngrok config add-authtoken 2EVelYOUR-AUTH-TOKENhfhZT9
 ```
 
+Or, don't feel like typing, just Paste this into the Conole:
+```
+sudo APIKEY=yourkey bash -c "$(curl -L https://raw.githubusercontent.com/ngrok-patrick/ngrok-dropin-raspberrypi/main/installer.sh)"
+```
+
 `./ngrok http 3000` If you can't remember how to Start Ngrok
 
 Maybe someone will find this useful
